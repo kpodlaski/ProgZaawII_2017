@@ -9,15 +9,10 @@ using System.Threading.Tasks;
 
 namespace Zajecia3 {
     class Program {
-        static void Main(String[] args) {
-
-           
-
+        static void Main(String[] args) { 
             String www = readFromUrl("http://onet.pl");
             findLinksInString(www);
             Console.ReadKey();
-
-            
         }
 
         private static void fileReadWrite() {
