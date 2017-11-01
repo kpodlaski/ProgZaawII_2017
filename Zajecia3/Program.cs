@@ -50,7 +50,7 @@ namespace Zajecia3 {
         }
 
         private static void findLinksInString(String text) {
-            String pattern = "<a (([\\w,\\._]+)=[\"\']([\\w,\\._:/\\?]+)[\"\']\\s*)+>"; 
+           String pattern = "<a (([\\w-]+)=[\"\']([\\w,\\._:~#=@%\\+-/\\?]+)[\"\']\\s*)+>"; 
             Regex reg = new Regex (pattern,RegexOptions.IgnoreCase);
             Match match = reg.Match(text);
             while (match.Success) {
