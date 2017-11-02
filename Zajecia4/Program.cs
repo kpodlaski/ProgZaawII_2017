@@ -40,7 +40,9 @@ namespace Zajecia4 {
         }
 
         static async void UseCount(int x) {
-            Task<int> t = Task.FromResult<int>(CountSomething(x));
+            Console.WriteLine("Startujemy Task ... ");
+            Task<int> t = new Task<int>(()=>CountSomething(x));
+            t.Start();
             Console.WriteLine("Licze ... ");
             int res = await t;
             Console.WriteLine("Wynik "+res);
@@ -48,11 +50,14 @@ namespace Zajecia4 {
 
         static int CountSomething(int v) {
             int result =0;
+            Console.WriteLine("Task Wait");
+            //Thread.Sleep(1000);
             for (int i=0; i<v; i++) {
                 result += v;
                 if (i%100==0) Console.WriteLine(i);
             }
-            Thread.Sleep(1000);
+            //Task.Delay(1000);
+            Console.WriteLine("Task Wait");
             return result;
         }
     }
