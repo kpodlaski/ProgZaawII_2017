@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zajecia3", "Zajecia3\Zajeci
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zajecia4", "Zajecia4\Zajecia4.csproj", "{5B1F5F93-82D7-4512-AF06-45F177625762}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarierExample", "BarierExample\BarierExample.csproj", "{FDAEBEDB-5BF9-4E55-8D81-31FD58A57B88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{5B1F5F93-82D7-4512-AF06-45F177625762}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B1F5F93-82D7-4512-AF06-45F177625762}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B1F5F93-82D7-4512-AF06-45F177625762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDAEBEDB-5BF9-4E55-8D81-31FD58A57B88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDAEBEDB-5BF9-4E55-8D81-31FD58A57B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDAEBEDB-5BF9-4E55-8D81-31FD58A57B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDAEBEDB-5BF9-4E55-8D81-31FD58A57B88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
