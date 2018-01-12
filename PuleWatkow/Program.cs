@@ -32,6 +32,10 @@ namespace PuleWatkow {
             */
             Console.ReadKey();
 
+            Console.Clear();
+            BlockingQueue<int>.Test();
+            Console.ReadKey();
+
         }
         public Program(int id) {
             zadanieId = id;
@@ -45,6 +49,7 @@ namespace PuleWatkow {
                 Thread.Sleep(500);
             }
             Console.WriteLine("Koniec zadania: "+zadanieId);
+            
         }
     }
 }
